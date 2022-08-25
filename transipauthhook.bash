@@ -1,6 +1,6 @@
 #!/bin/bash
 
-PATH=$PATH:$HOME/.local/bin:$HOME/bin:/home/user/.config/composer/vendor/bin/
+PATH=$PATH:$HOME/.local/bin:$HOME/bin:/home/transip/.config/composer/vendor/bin/
 
 entryName="_acme-challenge"
 entryExpire="300"
