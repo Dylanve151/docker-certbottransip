@@ -1,11 +1,12 @@
 FROM debian
 ENV DOMAIN example.com
 ENV DOMAINEMAIL example@example.com
+VOLUME ["/root/.config/transip-api"]
+VOLUME ["/etc/letsencrypt"]
 RUN apt-get update && apt-get install -y \
   composer \
   certbot \
   && apt-get clean
-VOLUME ["/root/.config/transip-api"]
 COPY startup .
 COPY transipauthhook.bash .
 COPY transipcleanhook.bash .
