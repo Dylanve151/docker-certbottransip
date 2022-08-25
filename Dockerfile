@@ -18,4 +18,4 @@ RUN su transip && \
   echo "PATH=$PATH:$HOME/.local/bin:$HOME/bin:/home/transip/.config/composer/vendor/bin/" > ~/.bash_profile && \
   exit
 RUN rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
-CMD [ "/startup" ]
+CMD [ "startup" ]
