@@ -15,6 +15,6 @@ RUN chmod 775 *.bash
 RUN chmod 775 startup
 RUN chmod 775 setup_tipctl
 RUN composer global require transip/tipctl
-RUN echo "PATH=$PATH:$HOME/.local/bin:$HOME/bin:/root/.config/composer/vendor/bin/" > ~/.bash_profile
+RUN echo "PATH=$PATH:$HOME/.local/bin:$HOME/bin:/root/.composer/vendor/bin/" > ~/.bash_profile
 RUN rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 CMD [ "startup" ]
