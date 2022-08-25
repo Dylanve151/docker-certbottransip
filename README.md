@@ -6,4 +6,5 @@ docker build --name="certbottransip" --restart="always" --volume="/etc/localtime
 ## Environment variables:
 ### Required:
 DOMAIN = Domain for the SSL certificate
+
 DOMAINEMAIL = Email to recieve letsencrypt notifications on
