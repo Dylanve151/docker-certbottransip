@@ -1,5 +1,6 @@
 FROM debian
 ENV DOMAIN example.com
+ENV DOMAINEMAIL example@example.com
 RUN apt-get update && apt-get install -y \
   composer \
   certbot \
