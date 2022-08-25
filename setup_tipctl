@@ -1,0 +1,5 @@
+#!/bin/bash
+
+PATH=$PATH:$HOME/.local/bin:$HOME/bin:/home/transip/.config/composer/vendor/bin/
+
+tipctl setup
