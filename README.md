@@ -1,7 +1,7 @@
 # docker-scheduledwol
 deploy:
 ```
-docker build --name="certbottransip" --restart="always" --volume="/etc/localtime:/etc/localtime:ro" dylanve115/certbottransip
+docker run --name="certbottransip" --restart="always" --volume="/etc/localtime:/etc/localtime:ro" dylanve115/certbottransip
 ```
 ## Environment variables:
 ### Required:
