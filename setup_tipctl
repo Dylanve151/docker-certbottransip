@@ -1,5 +1,5 @@
 #!/bin/bash
 
-PATH=$PATH:$HOME/.local/bin:$HOME/bin:/root/.config/composer/vendor/bin/
+PATH=$PATH:$HOME/.local/bin:$HOME/bin:/root/.composer/vendor/bin/
 
 tipctl setup
